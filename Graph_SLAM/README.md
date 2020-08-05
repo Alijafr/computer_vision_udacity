@@ -9,7 +9,7 @@ This is an implementation of graph SLAM (Simultaneous Localization and Mapping) 
   <img src="./images/robot_world.png" width=50% height=50% />
 </p>
 
-The project is  broken up into three Python notebooks; the first two are for exploration of provided code, and a review of SLAM architectures, **only Notebook 3 and the `robot_class.py` file will be graded**:
+The project is  broken up into three Python notebooks:
 
 __Notebook 1__ : Robot Moving and Sensing
 
@@ -18,15 +18,9 @@ __Notebook 2__ : Omega and Xi, Constraints
 __Notebook 3__ : Landmark Detection and Tracking 
 
 
-### Local Environment Instructions
-
-1. Clone the repository, and navigate to the downloaded folder.
 ```
-git clone https://github.com/udacity/P3_Implement_SLAM.git
-cd P3_Implement_SLAM
-```
-
-2. Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+Installation
+ 1-Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
 	```
@@ -41,7 +35,7 @@ cd P3_Implement_SLAM
 	
 	At this point your command line should look something like: `(cv-nd) <User>:P3_Implement_SLAM <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
-6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
+2-Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 ```
 pip install -r requirements.txt
 ```
