@@ -17,9 +17,8 @@ __Notebook 2__ : Omega and Xi, Constraints
 
 __Notebook 3__ : Landmark Detection and Tracking 
 
-
+## Installation
 ```
-Installation
  1-Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
@@ -36,6 +35,5 @@ Installation
 	At this point your command line should look something like: `(cv-nd) <User>:P3_Implement_SLAM <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 2-Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
-```
 pip install -r requirements.txt
 ```
