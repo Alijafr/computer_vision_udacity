@@ -27,8 +27,8 @@ __Notebook 4__ : Fun Filters and Keypoint Uses
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/alijafr/P1_Facial_Keypoints.git
-cd P1_Facial_Keypoints
+git clone https://github.com/Alijafr/computer_vision_udacity.git
+cd computer_vision_udacity/P1_Facial_Keypoints
 ```
 
 2. Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
@@ -66,4 +66,3 @@ pip install -r requirements.txt
 
 ### Data
 
-All of the data you'll need to train a neural network is in the P1_Facial_Keypoints repo, in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look trough these folders on your own, too.
